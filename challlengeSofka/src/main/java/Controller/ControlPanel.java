@@ -7,8 +7,6 @@ package Controller;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
@@ -55,6 +53,7 @@ public class ControlPanel implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        
         if (e.getSource() == frm.btnInit) {
             player.setName(frm.textName.getText());
             if (qPlayer.register(player)) {
@@ -73,6 +72,8 @@ public class ControlPanel implements ActionListener {
                 JOptionPane.showMessageDialog(null, "Error al intentar cargar las preguntas");
             }
         }
+        
+        
         if (e.getSource() == frm.btnShowWinners) {
             DefaultTableModel model=new DefaultTableModel();
             frm.jtWinners.setModel(model);
@@ -92,14 +93,9 @@ public class ControlPanel implements ActionListener {
                winner[3]=winners.get(i).prize();
                model.addRow(winner);
            }
-           
-         
-           
-            
-            
-
-
         }
+        
+        
         if(e.getSource()==frm.btnLeave){
             if(player.getLevel()<1){
             qPlayer.delete(player);
@@ -107,6 +103,8 @@ public class ControlPanel implements ActionListener {
             reset();
             JOptionPane.showMessageDialog(null, "Gracias por jugar");
         }
+        
+        
         if (e.getSource() == frm.btnAnswer1) {
             selectAnswer(frm.btnAnswer1);
 

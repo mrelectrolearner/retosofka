@@ -16,7 +16,7 @@ import java.sql.SQLException;
  */
 public class QueryQuestion extends ConnectionDB {
 
-    public boolean register(Question qu) {
+   /* public boolean register(Question qu) {
         PreparedStatement ps = null;
         Connection con = getConnection();
         String query = "INSERT INTO qyas (question,answerl,answer2,answer3,answer4,rightAnswer,level) VALUES(?,?,?,?,?,?,?)";
@@ -44,7 +44,7 @@ public class QueryQuestion extends ConnectionDB {
             }
         }
         
-    }
+    }*/
     
     public boolean findQuestion(Integer level, Question qu) {
         PreparedStatement ps = null;

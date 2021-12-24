@@ -113,17 +113,14 @@ public class QueryPlayer extends ConnectionDB {
         try {
             ps = con.prepareStatement(query);
             rs = ps.executeQuery();
-            ResultSetMetaData rsMd=rs.getMetaData();
-            int winnersNumber=rsMd.getColumnCount();
             ArrayList<Player> winnersList=new ArrayList<>();
-            int j=0;
              while (rs.next()) {
                 //add code to print in jTable
-                    Player winners=new Player();
-                    winners.setId((Integer) rs.getObject(1));
-                    winners.setName(String.valueOf(rs.getObject(2)));
-                    winners.setLevel((Integer) rs.getObject(3));
-                   winnersList.add(winners);     
+                    Player winner=new Player();
+                    winner.setId((Integer) rs.getObject(1));
+                    winner.setName(String.valueOf(rs.getObject(2)));
+                    winner.setLevel((Integer) rs.getObject(3));
+                   winnersList.add(winner);     //create the list of the winners
              }
                 
             return winnersList;

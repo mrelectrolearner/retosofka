@@ -5,6 +5,7 @@ model\QueryQuestion.class
 view\View.class
 view\View$5.class
 view\View$8.class
+ChallengeSofka\Challenge.class
 model\ConnectionDB.class
 view\View$9.class
 view\View$7.class
@@ -14,5 +15,4 @@ model\Question.class
 model\Player.class
 model\QueryPlayer.class
 view\View$6.class
-ChallengeSofka\challenge.class
 view\View$2.class
