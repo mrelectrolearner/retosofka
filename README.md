@@ -22,11 +22,13 @@ Lo que se busca en este juego es pre-construir una serie de preguntas con 4 opci
 El acomulado de premios está dentro del concurso pero si dado el caso el jugador pretender salir de juego puede retirarse antes de responder a la pregunta, si por el contrario el jugador pierde entonces saldría del juego sin el acomulado que llevaría en ese momento.
 
 ## Stack tecnológico 
+
 Java
+
 SQL
 
 
-## Ejecicion del programa
+## Ejecucion del programa
 
 Se ha adjuntado el archivo "databaseChallenge.sql" el cual se puede importar a un servicio de gestion de base de datos como mySQL. Este contiene la información respecto a los ganadores, preguntas y respuestas que se han de cargar al sistema.
 
