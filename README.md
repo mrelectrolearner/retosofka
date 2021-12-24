@@ -35,3 +35,7 @@ Se ha adjuntado el archivo "databaseChallenge.sql" el cual se puede importar a u
 Se debe modificar en el archivo "ConnectionDB.java" las variables url, user y password segun sea pertiente para conectar la aplicacion con la base de datos local.
 
 Si es necesario en el archivo View.java se debe agrabar como iconno al labelImg la imagen denominada preguntas que se encuentra en la carpeta img. Al intentar importar esta imagen dentro del documento se generaron errores. Se sugiere por lo tanto cargarla como imagen externa.
+
+La clase principal que se debe ejecutar es challenge.java.
+
+Para iniciar a usar el programa se debe ingresar el nombre y darle click en el boton inicio.
