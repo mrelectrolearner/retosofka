@@ -71,6 +71,7 @@ public class ControlPanel implements ActionListener {
             } else {
                 JOptionPane.showMessageDialog(null, "Error al intentar cargar las preguntas");
             }
+            frm.btnInit.setEnabled(false);
         }
         
         
@@ -143,6 +144,7 @@ public class ControlPanel implements ActionListener {
                 frm.txtLevel.setText(String.valueOf(qu.getLevel()));
                 frm.textName.setText(" ");
                 frm.txtPrize.setText(" ");
+                frm.btnInit.setEnabled(true);
     
     }
 
