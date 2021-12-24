@@ -38,4 +38,4 @@ Si es necesario en el archivo View.java se debe agrabar como iconno al labelImg 
 
 La clase principal que se debe ejecutar es challenge.java.
 
-Para iniciar a usar el programa se debe ingresar el nombre y darle click en el boton inicio.
+Para empezar a usar el programa se debe ingresar el nombre y darle click en el boton inicio.
