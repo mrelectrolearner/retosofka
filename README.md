@@ -16,3 +16,11 @@ Dentro del reto se debe considerar lo siguiente:
 - Manejo de Git (versión de control).
 
 Solo puedes aplicar al reto si te sientes capaz de hacerlo.
+
+## Ejecicion del programa
+
+Se ha adjuntado el archivo "databaseChallenge.sql" el cual se puede importar a un servicio de gestion de base de datos como mySQL. Este contiene la información respecto a los ganadores, preguntas y respuestas que se han de cargar al sistema.
+
+Se debe modificar en el archivo "ConnectionDB.java" las variables url, user y password segun sea pertiente para conectar la aplicacion con la base de datos local.
+
+Si es necesario en el archivo View.java se debe agrabar como iconno al labelImg la imagen denominada preguntas que se encuentra en la carpeta img. Al intentar importar esta imagen dentro del documento se generaron errores. Se sugiere por lo tanto cargarla como imagen externa.
