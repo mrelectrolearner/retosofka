@@ -15,7 +15,7 @@ Dentro del reto se debe considerar lo siguiente:
 
 - Manejo de Git (versión de control).
 
-Solo puedes aplicar al reto si te sientes capaz de hacerlo.
+
 
 ## Ejecicion del programa
 
